@@ -23,7 +23,7 @@ $(document).ready(function(){
             break
             //Se for para abria a página trabalhos...
             case 'mountain': 
-                $('.modal-title').append('Meus trabalhos')
+                $('.modal-title').append('mountain')
                 $('.modal-body').append(` <p class="text-danger" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus voluptates temporibus at deleniti nam dolorem voluptatem perspiciatis nostrum ipsa iusto? Perspiciatis vel deserunt error dolores reiciendis cumque necessitatibus? Modi, molestias?</p>
                 <p class="text-primary" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus voluptates temporibus at deleniti nam dolorem voluptatem perspiciatis nostrum ipsa iusto? Perspiciatis vel deserunt error dolores reiciendis cumque necessitatibus? Modi, molestias?</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus voluptates temporibus at deleniti nam dolorem voluptatem perspiciatis nostrum ipsa iusto? Perspiciatis vel deserunt error dolores reiciendis cumque necessitatibus? Modi, molestias?</p>
@@ -32,7 +32,7 @@ $(document).ready(function(){
             break
             //Se for para abria a página meus clientes...
             case 'road': 
-                $('.modal-title').append('Meus clientes')
+                $('.modal-title').append('road')
                 $('.modal-body').append(` <p class="text-danger" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus voluptates temporibus at deleniti nam dolorem voluptatem perspiciatis nostrum ipsa iusto? Perspiciatis vel deserunt error dolores reiciendis cumque necessitatibus? Modi, molestias?</p>
                 <p class="text-primary" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus voluptates temporibus at deleniti nam dolorem voluptatem perspiciatis nostrum ipsa iusto? Perspiciatis vel deserunt error dolores reiciendis cumque necessitatibus? Modi, molestias?</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus voluptates temporibus at deleniti nam dolorem voluptatem perspiciatis nostrum ipsa iusto? Perspiciatis vel deserunt error dolores reiciendis cumque necessitatibus? Modi, molestias?</p>
@@ -42,7 +42,7 @@ $(document).ready(function(){
             break
             //Se for para abria a página meus contatos...
             case 'bmx': 
-                $('.modal-title').append('Meus contatos')
+                $('.modal-title').append('bmx')
                 $('.modal-body').append(` <p class="text-danger" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus voluptates temporibus at deleniti nam dolorem voluptatem perspiciatis nostrum ipsa iusto? Perspiciatis vel deserunt error dolores reiciendis cumque necessitatibus? Modi, molestias?</p>
                 <p class="text-primary" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus voluptates temporibus at deleniti nam dolorem voluptatem perspiciatis nostrum ipsa iusto? Perspiciatis vel deserunt error dolores reiciendis cumque necessitatibus? Modi, molestias?</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus voluptates temporibus at deleniti nam dolorem voluptatem perspiciatis nostrum ipsa iusto? Perspiciatis vel deserunt error dolores reiciendis cumque necessitatibus? Modi, molestias?</p>

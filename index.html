@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio JQuery</title>
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="Desafio_JQuery/fontawesome/css/all.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body id="body">
     
     <nav class="navbar navbar-expand-lg navbar-dark bg-menu fixed-top">
         <a href="" class="navbar-brand">Bikes</a>
@@ -19,31 +19,38 @@
         <div class="collapse navbar-collapse" id="conteudoNavBarSuportado">
             
             <ul class="navbar-nav mr-auto">
-            
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <button class="btn btn-port" id="btn-port">Português</button>
+                        <button class="btn btn-ing">Inglês</button>
+                    </div>
+                </div>
             </ul>
             <div class="row">
                 <div class="col-12 text-center">
-                    <button class="btn btn-dark">Dark</button>
-                    <button class="btn btn-light">Light</button>
-                    <button class="btn btn-primary">Original</button>
+                    <button class="btn btn-dark" id="btn-dark">Dark</button>
+                    <button class="btn btn-light" id="btn-light">Light</button>
+                    <button class="btn btn-primary" id="btn-original">Original</button>
                 </div>
             </div>
         </div>
     </nav>
 
-    <div class="container-fluid bg-personal">
-        <div class="jumbotron jumbotron-fluid bg-personal">
+        <div class="jumbotron jumbotron-fluid bg-natan-souza">
             <h1 class="display-3 text-white text-center mt-5 mb-5">Natan Bikes</h1>
         </div>
-    </div>
+
 
     <div class="row">
         <div class="col-12 col-sm-6 col-md-6">
             <div class="row mt-5 ml-3">
                 <div class="col-12 col-sm-6 col-md-6">
                     <h4 class="text-info">Bike Convencional</h4>
+                    <h4 class="ing text-info ">Conventional Bike</h4>
                     <p class="text-justfy">A bicicleta convencional foi feita para você que queruma bike somente para passeio e para uso urbano, contendo um preço mais acessível e sendo uma ótima opção para o uso no dia a dia.</p>
+                    <p class="ing text-justfy">The conventional bike was made for you who want a bike just for rides and for urban use, with a more affordable price and being a great option for everyday use.</p>
                     <a href="convencional"><button class="btn btn-personal">Saiba Mais</button></a>
+                    <a href="convencional" class="ing"><button class="btn btn-personal">Know More</button></a>
                 </div>
                 <div class="col-12 col-sm-6 col-md-6 d-none d-sm-block">
                     <img class="img-fluid" id="bike" src="imagens/bike-convencional.jpg" alt="violão">
@@ -126,10 +133,12 @@
         </div>
     </div>
 
-    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery-3.6.0.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="fontawesome/js/all.js"></script>
     <script src="js/load.js"></script>
     <script src="js/tema.js"></script>
+    <script src="js/language.js"></script>
+    <script src="js/tema_dois.js"></script>
 </body>
 </html>
