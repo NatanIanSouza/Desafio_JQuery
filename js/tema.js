@@ -22,13 +22,6 @@ $(document).ready(function(){
         $('.container-fluid').addClass('bg-rodape-dark')
         $('a').addClass('text-white')
         $('a').removeClass('text-dark')
-
-        $('.body').removeClass('body')
-        $('.body').removeClass('body-light')
-        $('.body').addClass('body-dark')
-        $('a').addClass('text-white')
-        $('a').removeClass('text-dark')
-
     })
 
     $('#btn-light').click(function(light){
@@ -52,11 +45,6 @@ $(document).ready(function(){
         $('a').addClass('text-dark')
         $('a').removeClass('text-white')
 
-        $('.body').removeClass('body')
-        $('.body').removeClass('body-dark')
-        $('.body').addClass('body-light')
-        $('a').addClass('text-dark')
-        $('a').removeClass('text-white')
     })
 
     $('#btn-original').click(function(light){
@@ -80,10 +68,5 @@ $(document).ready(function(){
         $('a').addClass('text-white')
         $('a').removeClass('text-dark')
 
-        $('.body').removeClass('body-dark')
-        $('.body').removeClass('body-light')
-        $('.body').addClass('body')
-        $('a').addClass('text-white')
-        $('a').removeClass('text-dark')
     })
 })
